@@ -5,4 +5,5 @@ class Application
     
     time = Time.now
     
-    if time.
+    if time.hour > 12
+      resp.write
